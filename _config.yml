@@ -9,7 +9,7 @@ description: >
 
 show_excerpts: false
 
-theme: jekyll-theme-ascii
+external_theme: antoniovazquezblanco/jekyll-theme-ascii
 
 plugins:
  - jekyll-feed
