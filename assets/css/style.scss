@@ -1,0 +1,8 @@
+---
+# This file need the front matter
+# The three dashes are enough...
+---
+@import
+  "jekyll-theme-ascii/skins/{{ site.jekyll-theme-ascii.skin | default: 'classic' }}",
+  "jekyll-theme-ascii/skins/{{ site.jekyll-theme-ascii.skin | default: 'classic' }}-highlighting",
+  "jekyll-theme-ascii/main";
