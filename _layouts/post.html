@@ -7,3 +7,7 @@ layout: default
 [ {{ page.date | date: date_format }} ]
 
 {{ content }}
+
+{%- if site.disqus.shortname -%}
+{%- include disqus_comments.html -%}
+{%- endif -%}
