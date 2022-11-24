@@ -11,7 +11,6 @@ body {
   margin: 0 auto;
   width: 90%;
   max-width: 700px;
-  line-height: 2em;
   font-size: 0.9em;
 }
 
@@ -63,7 +62,6 @@ b, strong {
 
 /* Small font override */
 body.large {
-  line-height: 2em;
   font-size: 1em;
 }
 
@@ -179,16 +177,6 @@ ul :not(.menu) > ul > li:before {
   margin-left: 10px;
   float: left;
   color: $main-color
-}
-
-/* Error pages */
-div.error_box {
-  margin: 100px;
-  text-align: center;
-}
-
-div.error_box h1 {
-  font-size: 2em;
 }
 
 *::selection {
