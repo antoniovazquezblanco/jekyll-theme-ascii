@@ -1,0 +1,10 @@
+{%- assign mastodon_host = page.mastodon_comments.host | default: site.mastodon_comments.host -%}
+<div style="border-top: dashed 1px rgba(219, 219, 219, 0.9)">
+    <h2>Comments in Mastodon</h2>
+    <div id="mastodon_comments_list" style="margin-top: 22px;">
+    </div>
+</div>
+<script src="/assets/js/mastodon_comments.js"></script>
+<script>
+    window.onload = mastodon_comments_load('{{ mastodon_host }}', '{{ page.mastodon_comments.toot_id }}', 'mastodon_comments_list')
+</script>
