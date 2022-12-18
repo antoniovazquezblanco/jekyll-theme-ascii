@@ -1,5 +1,9 @@
 # jekyll-theme-ascii
 
+![GitHub](https://img.shields.io/github/license/antoniovazquezblanco/jekyll-theme-ascii)
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-ascii.svg)](https://badge.fury.io/rb/jekyll-theme-ascii)
+[![pages-build-deployment](https://github.com/antoniovazquezblanco/jekyll-theme-ascii/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/antoniovazquezblanco/jekyll-theme-ascii/actions/workflows/pages/pages-build-deployment)
+
 Simple theme that relies mostly on ASCII characters. And maybe emojis :).
 
 
