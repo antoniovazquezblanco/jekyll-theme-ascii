@@ -1,14 +1,12 @@
 @charset "utf-8";
 
 .highlight {
-  background: #111111;
   color: #ffffff;
   padding-left: 10px;
-  border-radius: 10px;
   padding-top: 1px;
   padding-bottom: 1px;
     .hll { background-color: #333333 }
-    .c { color: #008800; font-style: italic; background-color: #0f140f } /* Comment */
+    .c { color: #008800; font-style: italic } /* Comment */
     .err { color: #ffffff } /* Error */
     .esc { color: #ffffff } /* Escape */
     .g { color: #ffffff } /* Generic */
@@ -18,18 +16,18 @@
     .o { color: #ffffff } /* Operator */
     .x { color: #ffffff } /* Other */
     .p { color: #ffffff } /* Punctuation */
-    .ch { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Hashbang */
-    .cm { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Multiline */
-    .cp { color: #34c759; font-weight: bold; font-style: italic; background-color: #0f140f } /* Comment.Preproc */
-    .cpf { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.PreprocFile */
-    .c1 { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Single */
-    .cs { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Special */
+    .ch { color: #008800; font-style: italic } /* Comment.Hashbang */
+    .cm { color: #008800; font-style: italic } /* Comment.Multiline */
+    .cp { color: #34c759; font-weight: bold; font-style: italic } /* Comment.Preproc */
+    .cpf { color: #008800; font-style: italic } /* Comment.PreprocFile */
+    .c1 { color: #008800; font-style: italic } /* Comment.Single */
+    .cs { color: #008800; font-style: italic } /* Comment.Special */
     .gd { color: #ffffff } /* Generic.Deleted */
     .ge { color: #ffffff } /* Generic.Emph */
     .gr { color: #ffffff } /* Generic.Error */
     .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
     .gi { color: #ffffff } /* Generic.Inserted */
-    .go { color: #444444; background-color: #222222 } /* Generic.Output */
+    .go { color: #444444 } /* Generic.Output */
     .gp { color: #ffffff } /* Generic.Prompt */
     .gs { color: #ffffff } /* Generic.Strong */
     .gu { color: #ffffff; font-weight: bold } /* Generic.Subheading */
