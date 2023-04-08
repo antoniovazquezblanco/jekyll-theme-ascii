@@ -8,8 +8,10 @@ layout: default
 
 {{ content }}
 
-{%- if page.mastodon_comments.toot_id and (page.mastodon_comments.host or site.mastodon_comments.host) -%}
+{%- if page.mastodon_comments.toot_id -%}
+{%- if page.mastodon_comments.host or site.mastodon_comments.host -%}
 {%- include mastodon_comments.html -%}
+{%- endif -%}
 {%- endif -%}
 
 {%- if site.disqus.shortname -%}
