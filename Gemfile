@@ -1,8 +1,5 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
 gemspec
 
-gem "jekyll"
-gem "kramdown-parser-gfm"
-gem "webrick"
+gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
