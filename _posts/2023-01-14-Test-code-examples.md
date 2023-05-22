@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Code examples"
+title: "Test: Code examples"
 ---
 
-This is a post with example code syntax highlight.
+This is a post with example code for syntax highlight testing.
 
 Python:
 ```python
