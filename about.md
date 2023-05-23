@@ -2,6 +2,7 @@
 layout: page
 title: /about
 permalink: /about
+nav_order: 1
 ---
 
 # About this

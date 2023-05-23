@@ -7,9 +7,6 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-header_pages:
- - index.md
- - about.md
 exclude:
  - LICENSE.txt
  - README.md
