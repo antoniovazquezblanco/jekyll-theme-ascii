@@ -1,15 +1,11 @@
-title: Your awesome title
+title: Jekyll theme ASCII
 author:
-  name: GitHub User
-  email: your-email@domain.com
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 
 show_excerpts: false
 
 external_theme: antoniovazquezblanco/jekyll-theme-ascii
+  name: Antonio Vázquez Blanco
+description: This is a simple Jekyll theme that relies mostly on ASCII characters. And maybe emojis :).
 
 plugins:
  - jekyll-feed
