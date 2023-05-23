@@ -10,3 +10,8 @@ plugins:
 header_pages:
  - index.md
  - about.md
+exclude:
+ - LICENSE.txt
+ - README.md
+ - '*.gemspec'
+ - '*.gem'
