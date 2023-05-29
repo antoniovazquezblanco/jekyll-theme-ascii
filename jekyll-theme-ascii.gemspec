@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-ascii"
-  spec.version       = "0.3.0"
+  spec.version       = "0.3.1"
   spec.authors       = ["Antonio Vázquez Blanco"]
   spec.email         = ["antoniovazquezblanco@gmail.com"]
   spec.summary       = "Simple theme that relies mostly on ASCII characters. And maybe emojis :)."
