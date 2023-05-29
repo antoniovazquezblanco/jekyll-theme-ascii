@@ -4,7 +4,9 @@
     <ul>
       <li class="site-title"><a href="/">{{ site.title | escape }}</a></li>
       {%- for entry in nav_pages -%}
+      {%- if entry.title -%}
       <li><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></li>
+      {%- endif -%}
       {%- endfor -%}
     </ul>
   </div>
